@@ -10,11 +10,27 @@
   flex-direction: column;
 }
 .group {
+  border-color: var(--ig-gray-200);
+  border-width: 2px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  margin: 12px;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_1 {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
   position: relative;
-  padding: 32px;
+  padding: 16px;
   min-width: 50px;
   min-height: 50px;
   flex-grow: 1;
