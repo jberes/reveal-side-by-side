@@ -10,7 +10,7 @@ $custom-palette: palette(
   $primary: #1daed9,
   $secondary: #00c18a,
   $surface: #fff);
-@include theme($custom-palette);
+@include theme($palette: $custom-palette, $roundness: 0.5);
 
 body {
   background: var(--ig-surface-500);
